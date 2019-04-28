@@ -12,6 +12,22 @@ This is described in the blog post: [Habichef Packaging Chef for easy consumptio
 * ???
 * Profit!
 
+## Requirements
+
+### Building:
+
+* [Habitat](https://www.habitat.sh/)
+
+### Testing:
+
+* [ChefDK](https://downloads.chef.io/chefdk) / [Chef Workstation](https://downloads.chef.io/chef-workstation/0.2.53)
+** [Test Kitchen](https://kitchen.ci/) (included in ChefDK/ChefWKS)
+** [InSpec](https://www.inspec.io/) (included in ChefDK/ChefWKS)
+* [`kitchen-docker`](https://github.com/test-kitchen/kitchen-docker)
+* [`kitchen-habitat`](https://github.com/test-kitchen/kitchen-habitat)
+
+Once ChefDK/ChefWKS is installed, install requsite gems with `chef gem install kitchen-docker kitchen-habitat`
+
 ## License & Authors
 
 **Author:** QubitRenegade
