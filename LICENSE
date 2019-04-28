@@ -1,24 +1,3 @@
-# habichef-skel
-
-This is a basic skeleton for running Chef Policyfiles using Habitat (aka HabiChef).
-
-This is described in the blog post: [Habichef Packaging Chef for easy consumption](https://qubitrenegade.com/habitat/consul/docker/2019/04/08/Habichef-Packaging-Chef-for-easy-consumption.html)
-
-## Basic Usage Instructions
-
-* Clone this repo
-* update `habitat/plan.sh` and `policyfiles/base.rb`
-* run `hab pkg build .`
-* ???
-* Profit!
-
-## License & Authors
-
-**Author:** QubitRenegade
-
-**Copyright:** 2019, QubitRenegade
-
-```
 The MIT License (MIT)
 
 Copyright (c) 2019 QubitRenegade
@@ -40,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-```

@@ -6,7 +6,7 @@ splay_first_run = "10"
 run_lock_timeout = "30"
 
 [data_collector]
-  enable = "false"
+  enable = false
 #   Set this to true to enable data collection
 #   enable = "true"
 #   uncomment and set to your automate sever URL

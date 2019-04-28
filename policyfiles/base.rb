@@ -22,6 +22,7 @@ default_source :supermarket
 #   s.preferred_for 'ntp'
 # end
 
+# Your Run List
 run_list [
   'ntp::default',
 ]
